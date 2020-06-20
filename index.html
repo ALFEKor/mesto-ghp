@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <meta name="description" content="Mesto">
+    <meta name="keywords" content="основы JS">
+    <meta name="author" content="Коряков Алексей">
+</head>
+
+<body class="page">
+
+    <header class="header">
+        <img src="images/Vector.svg" alt="логотип" class="header__logo">
+    </header>
+
+    <main class="content">
+
+        <section class="profile">
+            <img src="images/benz%20(1).jpg" alt="аватар" class="profile__avatar">
+            <div class="profile__info">
+                <div class="profile__info-help">
+
+                    <h1 class="profile__title">Карл Бенц <img src="images/Edit%20Button.svg" alt="+" class="profile__edit-button"></h1>
+
+                    <h2 class="profile__subtitle">Изобретатель, создал первый автомобиль</h2>
+                </div>
+                <button class="profile__add-button"><img src="images/Vector_1.svg" alt="+" class="profile__add-button-img"></button>
+            </div>
+        </section>
+
+
+        <section class="elements">
+
+            <div class="element">
+                <img src="images/gls%20(1).jpg" alt="картинка" class="element__img">
+                <div class="element__content">
+                    <h3 class="element__title">Mersedes-Benz GLS</h3>
+                    <button class="element__like"><img src="images/Vectorlove.svg" alt="like"></button>
+                </div>
+            </div>
+
+            <div class="element">
+                <img src="images/rr%20(1).jpeg" alt="картинка" class="element__img">
+                <div class="element__content">
+                    <h3 class="element__title">Range Rover Vogue</h3>
+                    <button class="element__like"><img src="images/Vectorlove.svg" alt="like"></button>
+                </div>
+            </div>
+
+            <div class="element">
+                <img src="images/lx570%20(1).jpg" alt="картинка" class="element__img">
+                <div class="element__content">
+                    <h3 class="element__title">Lexus Lx570</h3>
+                    <button class="element__like"><img src="images/Vectorlove.svg" alt="like"></button>
+                </div>
+            </div>
+
+            <div class="element">
+                <img src="images/qx80%20(1).jpg" alt="картинка" class="element__img">
+                <div class="element__content">
+                    <h3 class="element__title">Infiniti QX80</h3>
+                    <button class="element__like"><img src="images/Vectorlove.svg" alt="like"></button>
+                </div>
+            </div>
+
+            <div class="element">
+                <img src="images/tlc200%20(1).jpg" alt="картинка" class="element__img">
+                <div class="element__content">
+                    <h3 class="element__title">Toyota Land Cruiser 200</h3>
+                    <button class="element__like"><img src="images/Vectorlove.svg" alt="like"></button>
+                </div>
+            </div>
+
+            <div class="element">
+                <img src="images/mohave%20(1).jpg" alt="картинка" class="element__img">
+                <div class="element__content">
+                    <h3 class="element__title">Kia Mohave</h3>
+                    <button class="element__like"><img src="images/Vectorlove.svg" alt="like"></button>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+   <footer class="footer">
+       <p class="footer__text">&copy; 2020 Mesto Russia</p>
+   </footer>
+
+
+<div class="popup popup_opened">
+
+   <form class="popup__container">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <input type="text" class="popup__input popup__input-title">
+        <input type="text" class="popup__input popup__input-subtitle">
+        <button class="popup__button">Сохранить</button>
+        <img src="images/Close%20Icon.png" alt="закрыть" class="popup__close">
+    </form>
+</div>
+</body>
+<script src="scripts/index.js"></script>
+</html>

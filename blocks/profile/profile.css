@@ -1,0 +1,28 @@
+@import url(__avatar/profile__avatar.css);
+@import url(__info/profile__info.css);
+@import url(__info-help/profile__info-help.css);
+@import url(__title/profile__title.css);
+@import url(__edit-button/profile__edit-button.css);
+/*@import url(__edit-button-img/profile__edit-button-img.css);*/
+@import url(__subtitle/profile__subtitle.css);
+@import url(__add-button/profile__add-button.css);
+@import url(__add-button-img/profile__add-button-img.css);
+
+.profile {
+    max-width: 882px;
+    margin: auto;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 750px) {
+    .profile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 38px;
+    }
+}
